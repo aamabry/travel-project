@@ -13,6 +13,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 
 section {
@@ -69,11 +70,11 @@ display: inline-block;
 }
 
 footer {
-    color: white;
-    background-image:linear-gradient(rgba(39,32,68,0.9), rgba(39,32,68,0.9)),  url(/images/lisbon-footer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
+color: white;
+background-image:linear-gradient(rgba(39,32,68,0.9), rgba(39,32,68,0.9)),  url(/images/lisbon-footer.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px 0;
 }
 
 footer h3 {
