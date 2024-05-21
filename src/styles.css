@@ -19,12 +19,48 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-responsive {
     max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    margin: 30px 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 20px 0;
+}
+
+.btn {
+    display: block;
+    background: #462CB2;
+    color: white;
+font-size: 14px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 3px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+padding: 16px;
+
 }
 
 main {
@@ -50,18 +86,39 @@ color: #272044;
 margin: 0;
 }
 
+main h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #272044;
+    margin: 0;
+    }
+
+ main h5 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 19.5px;
+            color: #272044;
+            margin: 0;
+        }
+
 main p {
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 color: #272044;
+opacity: 70%;
 
 }
 
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0   auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+section.secondary {
+    background: #F8F8F8;
 }
 
 header {
